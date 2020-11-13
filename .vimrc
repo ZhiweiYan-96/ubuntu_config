@@ -39,6 +39,7 @@ Bundle 'groenewege/vim-less'
 Bundle 'tomasr/molokai'
 Bundle 'klen/python-mode'
 Bundle 'heavenshell/vim-pydocstring'
+Bundle 'ervandew/supertab'
 
 "theme 
 colorscheme molokai
@@ -51,6 +52,9 @@ let g:pydocstring_doq_path = "/data/zhiwei_yan/anaconda3/bin/doq"
 let g:pydocstring_formatter = "google"
 "python-mode
 let g:pymode_lint_cwindow = 0
+"supertab
+let g:SuperTabMappingForward = "<tab>"
+let g:SuperTabMappingBackward = "s-tab"
 "basic setting
 set nu
 set ts=4
