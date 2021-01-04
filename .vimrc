@@ -58,3 +58,6 @@ let g:SuperTabMappingBackward = "s-tab"
 "basic setting
 set nu
 set ts=4
+set hlsearch
+set autoindent
+set cursorline
